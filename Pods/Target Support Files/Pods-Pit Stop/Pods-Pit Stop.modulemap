@@ -1,0 +1,6 @@
+framework module Pods_Pit_Stop {
+  umbrella header "Pods-Pit Stop-umbrella.h"
+
+  export *
+  module * { export * }
+}

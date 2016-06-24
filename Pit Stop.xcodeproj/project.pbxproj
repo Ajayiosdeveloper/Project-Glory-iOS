@@ -14,6 +14,8 @@
 		80A6185E1D1CF80C00084D73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A6185C1D1CF80C00084D73 /* LaunchScreen.storyboard */; };
 		80A618691D1CF80C00084D73 /* Pit_StopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A618681D1CF80C00084D73 /* Pit_StopTests.swift */; };
 		80A618741D1CF80C00084D73 /* Pit_StopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A618731D1CF80C00084D73 /* Pit_StopUITests.swift */; };
+		80A618821D1CFA3900084D73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80A618811D1CFA3900084D73 /* GoogleService-Info.plist */; };
+		DF6862B289882AE87109E301 /* Pods_Pit_Stop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0C3EC87DB2E27675E1C7BF /* Pods_Pit_Stop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A0C3EC87DB2E27675E1C7BF /* Pods_Pit_Stop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pit_Stop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D22ED84C5F8F989BC173073 /* Pods-Pit Stop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pit Stop.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pit Stop/Pods-Pit Stop.release.xcconfig"; sourceTree = "<group>"; };
+		737DFC9DF4FE6FE66317AC87 /* Pods-Pit Stop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pit Stop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pit Stop/Pods-Pit Stop.debug.xcconfig"; sourceTree = "<group>"; };
 		80A618501D1CF80C00084D73 /* Pit Stop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pit Stop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A618531D1CF80C00084D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80A618551D1CF80C00084D73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		80A6186F1D1CF80C00084D73 /* Pit StopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pit StopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A618731D1CF80C00084D73 /* Pit_StopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pit_StopUITests.swift; sourceTree = "<group>"; };
 		80A618751D1CF80C00084D73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A618811D1CFA3900084D73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6862B289882AE87109E301 /* Pods_Pit_Stop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F71C115BDCB10C2BD2E38F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				737DFC9DF4FE6FE66317AC87 /* Pods-Pit Stop.debug.xcconfig */,
+				5D22ED84C5F8F989BC173073 /* Pods-Pit Stop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42A26C6515CF33CB59737ACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A0C3EC87DB2E27675E1C7BF /* Pods_Pit_Stop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		80A618471D1CF80B00084D73 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				80A618671D1CF80C00084D73 /* Pit StopTests */,
 				80A618721D1CF80C00084D73 /* Pit StopUITests */,
 				80A618511D1CF80C00084D73 /* Products */,
+				3F71C115BDCB10C2BD2E38F0 /* Pods */,
+				42A26C6515CF33CB59737ACC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +128,7 @@
 				80A618571D1CF80C00084D73 /* Main.storyboard */,
 				80A6185A1D1CF80C00084D73 /* Assets.xcassets */,
 				80A6185C1D1CF80C00084D73 /* LaunchScreen.storyboard */,
+				80A618811D1CFA3900084D73 /* GoogleService-Info.plist */,
 				80A6185F1D1CF80C00084D73 /* Info.plist */,
 			);
 			path = "Pit Stop";
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80A618781D1CF80C00084D73 /* Build configuration list for PBXNativeTarget "Pit Stop" */;
 			buildPhases = (
+				ABAEB877232DEF02F6E33865 /* Check Pods Manifest.lock */,
 				80A6184C1D1CF80C00084D73 /* Sources */,
 				80A6184D1D1CF80C00084D73 /* Frameworks */,
 				80A6184E1D1CF80C00084D73 /* Resources */,
+				F4CE38565553566EF562257F /* Embed Pods Frameworks */,
+				23A387312B98A5E52975A90C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +262,7 @@
 				80A6185E1D1CF80C00084D73 /* LaunchScreen.storyboard in Resources */,
 				80A6185B1D1CF80C00084D73 /* Assets.xcassets in Resources */,
 				80A618591D1CF80C00084D73 /* Main.storyboard in Resources */,
+				80A618821D1CFA3900084D73 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +281,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23A387312B98A5E52975A90C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pit Stop/Pods-Pit Stop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAEB877232DEF02F6E33865 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4CE38565553566EF562257F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pit Stop/Pods-Pit Stop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80A6184C1D1CF80C00084D73 /* Sources */ = {
@@ -399,6 +478,7 @@
 		};
 		80A618791D1CF80C00084D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737DFC9DF4FE6FE66317AC87 /* Pods-Pit Stop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pit Stop/Info.plist";
@@ -410,6 +490,7 @@
 		};
 		80A6187A1D1CF80C00084D73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D22ED84C5F8F989BC173073 /* Pods-Pit Stop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pit Stop/Info.plist";
@@ -484,6 +565,7 @@
 				80A6187A1D1CF80C00084D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80A6187B1D1CF80C00084D73 /* Build configuration list for PBXNativeTarget "Pit StopTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +574,7 @@
 				80A6187D1D1CF80C00084D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80A6187E1D1CF80C00084D73 /* Build configuration list for PBXNativeTarget "Pit StopUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +583,7 @@
 				80A618801D1CF80C00084D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
